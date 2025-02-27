@@ -2,9 +2,13 @@
 
 Exploring using sentence-tranformers for code search.
 
+## TODO
+
+- Try to static link libtorch, we can run fine via Cargo's build script finding it for us, but the binary itself cannot.
+
 
 ## Ideas
- - Using a pretty arbitrary SBERT, are there better ones for code? Seems to work decently.
+ - Using a pretty arbitrary model, are there better ones for code? Seems to work decently.
  - UI is pretty bad, results should be presented in a nicer way.
 
 
