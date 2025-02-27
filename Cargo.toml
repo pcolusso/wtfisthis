@@ -1,0 +1,15 @@
+[package]
+name = "wtfisthis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.96"
+clap = { version = "4.5.31", features = ["derive"] }
+git2 = "0.20.0"
+polars = { version = "0.45.0", features = ['polars-io', 'dtype-categorical'] }
+polars-io = { version = "0.45.0", features = ["parquet"] }
+rust-bert = "0.23.0"
+soa_derive = "0.13.0"
+tree-sitter = "0.25.2"
+tree-sitter-ruby = "0.23.1"
